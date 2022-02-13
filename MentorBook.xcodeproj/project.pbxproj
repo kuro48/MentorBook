@@ -13,6 +13,8 @@
 		BFDB632D27B9675100A7D59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDB632B27B9675100A7D59C /* Main.storyboard */; };
 		BFDB632F27B9675800A7D59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDB632E27B9675800A7D59C /* Assets.xcassets */; };
 		BFDB633227B9675800A7D59C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDB633027B9675800A7D59C /* LaunchScreen.storyboard */; };
+		BFDB633A27B9681900A7D59C /* images 2 in Resources */ = {isa = PBXBuildFile; fileRef = BFDB633927B9681900A7D59C /* images 2 */; };
+		BFDB633C27B96D2500A7D59C /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB633B27B96D2500A7D59C /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BFDB632E27B9675800A7D59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFDB633127B9675800A7D59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFDB633327B9675800A7D59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDB633927B9681900A7D59C /* images 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "images 2"; sourceTree = "<group>"; };
+		BFDB633B27B96D2500A7D59C /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		BFDB631927B9675100A7D59C = {
 			isa = PBXGroup;
 			children = (
+				BFDB633927B9681900A7D59C /* images 2 */,
 				BFDB632427B9675100A7D59C /* MentorBook */,
 				BFDB632327B9675100A7D59C /* Products */,
 			);
@@ -59,6 +64,7 @@
 				BFDB632527B9675100A7D59C /* AppDelegate.swift */,
 				BFDB632727B9675100A7D59C /* SceneDelegate.swift */,
 				BFDB632927B9675100A7D59C /* ViewController.swift */,
+				BFDB633B27B96D2500A7D59C /* Mentor.swift */,
 				BFDB632B27B9675100A7D59C /* Main.storyboard */,
 				BFDB632E27B9675800A7D59C /* Assets.xcassets */,
 				BFDB633027B9675800A7D59C /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDB633A27B9681900A7D59C /* images 2 in Resources */,
 				BFDB633227B9675800A7D59C /* LaunchScreen.storyboard in Resources */,
 				BFDB632F27B9675800A7D59C /* Assets.xcassets in Resources */,
 				BFDB632D27B9675100A7D59C /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDB633C27B96D2500A7D59C /* Mentor.swift in Sources */,
 				BFDB632A27B9675100A7D59C /* ViewController.swift in Sources */,
 				BFDB632627B9675100A7D59C /* AppDelegate.swift in Sources */,
 				BFDB632827B9675100A7D59C /* SceneDelegate.swift in Sources */,
