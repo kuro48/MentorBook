@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var mentorArray:[Mentor] = []
+    var mentorArray: [Mentor] = []
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var namelabel: UILabel!
     @IBOutlet var courselabel: UILabel!
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.[
-        mentorArray.append(Mentor(name: "ながた",imageName: "naagta.jpg",course: "iPone"))
+        mentorArray.append(Mentor(name: "ながた",imageName: "nagata.jpg",course: "iPhone"))
         mentorArray.append(Mentor(name: "りょう",imageName: "ryo.jpg",course: "Unity"))
         mentorArray.append(Mentor(name: "たいてぃ",imageName: "taithi.jpg",course: "WebS,WebD"))
         
